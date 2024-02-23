@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="style.css">
+    <title>Vélemény</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Űrlap</h1>
+        </header>
+        <nav>
+            <div>
+                <ul>
+                    <li><a href="kezdolap.html">Kezdőlap</a></li>
+                    <li><a href="vezetes.html">Élményvezetés</a></li>
+                    <li><a href="hungaroring.html">Hungaroring</a></li>
+                    <li><a href="berles.html">Autó bérlés</a></li>
+                    <li><a href="urlap.html">Vélemény</a></li>
+                    <li><a href="csopmunka.html">Csoportmunka</a></li>
+                </ul>
+            </div>
+        </nav>
+        <article>
+            <form>
+                <h2>Vélemény</h2>
+
+                <div>
+                    <fieldset>
+                        <select name="auto" id="auto">
+                            <option value="valaszzon">Válasszon kategóriát</option>
+                            <option value="berelt">Bérelt autó</option>
+                            <option value="elmeny">Élményvezetés</option>
+                        </select><br>
+                    </fieldset>
+                </div>
+
+                <div>
+                    <fieldset>
+                        <div>
+                            <label>Választott autó:</label><br>
+                            <input type="radio" id="audi" name="valasztott" value="Audi">
+                            <label for="audi">Audi RS6</label><br>
+                            <input type="radio" id="ferrari" name="valasztott" value="Ferrari">
+                            <label for="ferrari">Ferrari Pista</label><br>
+                            <input type="radio" id="koenigsegg" name="valasztott" value="Koenigsegg">
+                            <label for="koenigsegg">Koenigsegg Jesko</label><br>
+                            <input type="radio" id="lamborgini" name="valasztott" value="Lamborghini">
+                            <label for="lamborgini">Lamborghini Huracan STO</label><br>
+                            <input type="radio" id="lotus" name="valasztott" value="Lotus">
+                            <label for="lotus">Lotus Emira</label><br>
+                            <input type="radio" id="mclaren" name="valasztott" value="McLaren">
+                            <label for="mclaren">Mclaren 765lt</label><br>
+                            <input type="radio" id="shelby" name="valasztott" value="Shelby">
+                            <label for="shelby">Shelby GT500</label><br>
+                            <input type="radio" id="audi" name="valasztott" value="Audi">
+                            <label for="audi">Audi R8 LMS GT3</label><br>
+                            <input type="radio" id="mclaren" name="valasztott" value="McLaren">
+                            <label for="mclaren">Mclaren 720s GT3</label><br>
+                            <input type="radio" id="maserati" name="valasztott" value="Maserati">
+                            <label for="maserati">Maserati MC GT3</label><br>
+                            <input type="radio" id="bmw" name="valasztott" value="BMW">
+                            <label for="bmw">BMW M4 GT3</label><br>
+                            <input type="radio" id="mercedes" name="valasztott" value="Mercedes">
+                            <label for="mercedes">Mercedes AMG GT3 EVO</label><br>
+                            <input type="radio" id="ferrari" name="valasztott" value="Ferrari">
+                            <label for="ferrari">Ferrari 488 GT3</label><br>
+                        </div>
+
+                        <div>
+                            <label for="szul_date">Dátum mikor nálunk járt:</label>
+                            <input type="text" id="szul_date" name="szul_date" placeholder="éééé. hh. nn."><br>
+                            <br>
+                            <label for="">Neme:</label><br>
+                            <input type="radio" id="ferfi" name="ferfi" value="ferfi">
+                            <label for="ferfi">férfi</label><br>
+                            <input type="radio" id="no" name="no" value="no">
+                            <label for="no">nő</label><br>
+        
+                        </div>
+
+                    </fieldset>
+                </div>
+                
+                <div>
+                </div>
+
+                <div>
+                    <fieldset>
+                        <label for="w3review">Egyéb vélemény:</label><br>
+                        <textarea id="w3review" name="w3review" rows="4" cols="50">
+                        </textarea>
+                    </fieldset>
+                </div>
+                
+
+            </form>
+        </article>
+        <footer></footer>
+    </main>
+</body>
+</html>
